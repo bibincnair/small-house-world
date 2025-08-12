@@ -54,7 +54,7 @@
         <include>
             <uri>model://aws_robomaker_residential_AirconditionerA_01</uri>
         </include>
-        <pose frame=''>-9.199410 2.411230 2.084544 0 -0 0</pose>
+        <pose>-9.199410 2.411230 2.084544 0 -0 0</pose>
 	</model>
 	
 	<model name='AirconditionerB_01_001'>
@@ -62,14 +62,14 @@
         <include>
             <uri>model://aws_robomaker_residential_AirconditionerB_01</uri>
         </include>
-        <pose frame=''>-2.004656 -5.226610 0.003485 0 -0 0</pose>
+        <pose>-2.004656 -5.226610 0.003485 0 -0 0</pose>
 	</model>
 	<model name='Ball_01_001'>
         <static>true</static>    
         <include>
             <uri>model://aws_robomaker_residential_Ball_01</uri>
         </include>
-        <pose frame=''>3.295503 4.225674 0.318684 0 -0 0</pose>
+        <pose>3.295503 4.225674 0.318684 0 -0 0</pose>
 	</model>
     
     <!-- quick test ball for turtlebot3 -->

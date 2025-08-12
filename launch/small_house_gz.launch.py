@@ -30,7 +30,7 @@ def generate_launch_description():
     world_file_name = 'small_house_gz.world'
     package_dir = get_package_share_directory('small_house_world')
     world_path = os.path.join(package_dir, 'worlds', world_file_name)
-    bridge_config = os.path.join(package_dir, 'param', 'bridge_config.yaml')
+    bridge_config = os.path.join(package_dir, 'param', 'gz_bridge_config.yaml')
     
     # Set Gazebo resource path to include our models
     gz_resource_path = SetEnvironmentVariable(
